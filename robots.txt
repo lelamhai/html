@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /phpmyadmin/
+Disallow: /checkout
+Sitemap: https://www.shopavietnam.com/sitemap.xml
