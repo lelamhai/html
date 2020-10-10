@@ -27,6 +27,7 @@ a:hover {
 /* ========== Category =========== */
 .wrap-left .panel-group {
     margin: 0;
+    padding-bottom: 10px;
 }
 
 .wrap-left .panel-group .panel {
@@ -34,7 +35,6 @@ a:hover {
     margin: 0;
     border: 0;
     box-shadow: initial;
-    padding-bottom: 10px;
 }
 
 .wrap-left .panel-group .panel-heading {
@@ -61,12 +61,16 @@ a:hover {
     top: -2px;
     right: 0px;
     position: absolute;
-    font-family: "FontAwesome"
+    font-family: "FontAwesome";
+    font-size: 20px;
+    font-weight: bold;
 }
   
 .panel-title[aria-expanded="true"]::after {
     /* content: "\f106"; */
     content: "-";
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .panel-title-child {
@@ -81,7 +85,7 @@ a:hover {
     top: -2px;
     right: 0px;
     position: absolute;
-    font-family: "FontAwesome"
+    font-family: "FontAwesome";
 }
  
 .panel-group .panel-title-child[aria-expanded="true"]::after {
@@ -99,11 +103,14 @@ a:hover {
 
 
 /* ========== Brand =========== */
+.wrap-brand {
+    padding-bottom: 10px;
+}
+
 .label-container {
     display: block;
     position: relative;
     padding-left: 30px;
-    margin-bottom: 12px;
     cursor: pointer;
     font-size: 14px;
     -webkit-user-select: none;
@@ -159,8 +166,78 @@ a:hover {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-  }
+}
 
+
+/* ========= Search price ========== */
+.wrap-search-price {
+    padding-bottom: 20px;
+}
+
+.form-search-price {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.price-max, 
+.price-min {
+    display: flex;
+    background-color: #ffffff;
+    border: 1px solid #a7a7a7;
+    padding: 2px;
+    border-radius: 4px;
+    width: 45%;
+
+}
+
+.text-price {
+    line-height: 25px;
+}
+
+.to-price {
+    padding: 0 10px;
+    line-height: 25px;
+}
+
+.text-price {
+    padding: 0 3px;
+}
+
+.input-price input {
+    width: 100%;
+    background-color:transparent;
+    height: 100%;
+    border: 0;
+}
+
+.wrap-button button {
+    border-radius: 0;
+    width: 100%;
+    padding: 8px 0;
+    border: 1px solid #d5d5d5;
+    background-color: #ebebeb;
+}
+
+/* ========== Search ============*/
+.from-search {
+    display: flex;
+    border: 1px solid #d2d2d2;
+    background-color: #ffffff;
+    padding: 5px 5px;
+}
+
+.input-search {
+    width: 100%;
+}
+
+.input-search input {
+    width: 100%;
+    border: 0;
+}
+
+.img-search {
+    padding-right: 5px;
+}
 
 /* =========== Right =========== */
 .list-content-right {
