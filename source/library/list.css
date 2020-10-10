@@ -1,0 +1,228 @@
+ul li {
+    list-style-type: none;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+    text-decoration: none !important;
+}
+
+.hr {
+    border-top: 1px solid #e7e7e7;
+}
+
+/* =========== Left =========== */
+.wrap-left {
+    padding-top: 32px;
+    padding-bottom: 20px;
+}
+
+.content-left-title {
+    padding: 15px 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* ========== Category =========== */
+.wrap-left .panel-group {
+    margin: 0;
+}
+
+.wrap-left .panel-group .panel {
+    background-color: transparent;
+    margin: 0;
+    border: 0;
+    box-shadow: initial;
+    padding-bottom: 10px;
+}
+
+.wrap-left .panel-group .panel-heading {
+    padding: 0;
+    border: 0;
+}
+
+.wrap-left .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border: 0;
+    padding: 0 10px;
+}
+
+.wrap-left .panel-group .panel-heading .panel-title {
+    position: relative;
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+    
+.panel-title::after {
+     /* content: "\f107"; */
+    content: "+";
+    color: #333;
+    top: -2px;
+    right: 0px;
+    position: absolute;
+    font-family: "FontAwesome"
+}
+  
+.panel-title[aria-expanded="true"]::after {
+    /* content: "\f106"; */
+    content: "-";
+}
+
+.panel-title-child {
+    position: relative;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.panel-group .panel-title-child::after {
+    content: "\f107";
+    color: #333;
+    top: -2px;
+    right: 0px;
+    position: absolute;
+    font-family: "FontAwesome"
+}
+ 
+.panel-group .panel-title-child[aria-expanded="true"]::after {
+    content: "\f106";
+}
+
+.categroy ul li {
+    padding-top: 5px;
+}
+
+.categroy ul li a {
+    font-size: 13px;
+    color: #a7a7a7;
+}
+
+
+/* ========== Brand =========== */
+.label-container {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: initial;
+  }
+  
+  .label-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border: 1px solid;
+  }
+  
+  .label-container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  .label-container input:checked ~ .checkmark {
+    background-color: #ff4546;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .label-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .label-container .checkmark:after {
+    left: 8px;
+    top: 4px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+/* =========== Right =========== */
+.list-content-right {
+    margin: 0;
+}
+
+.all_paging {
+    display: block;
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.all_paging ul {
+    width: auto;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.all_paging ul li {
+    float: left;
+    width: auto;
+    display: inline-block;
+}
+
+.all_paging ul li a.active {
+    color: #ff4546;
+    font-weight: 800;
+    background: none;
+}
+
+.all_paging ul li a {
+    line-height: 30px;
+    padding: 0 15px;
+    color: #3d3d3d;
+    font-size: 14px;
+}
+
+.all_paging ul .firstGo a {
+    padding: 0 5px;
+}
+
+.all_paging ul .prevGo a {
+    padding: 0 5px;
+}
+
+.all_paging ul .nextGo a {
+    padding: 0 5px;
+}
+
+.all_paging ul .lastGo a {
+    padding: 0 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
