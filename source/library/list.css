@@ -245,21 +245,159 @@ a:hover {
 }
 
 /* ==============================  Right =============================== */
+.header-option {
+    background: #f8f8f8;
+    border-top: 1px solid #3d3d3d;
+    border-bottom: 1px solid #eeeeee;
+    padding-top: 20px;
+    width: 100%;
+    display: inline-block;
+}
+
+.mode-option-list {
+    float: right;
+    display: block;
+}
+
+.nav-pills-custom {
+    float: left;
+    display: block;
+}
+
+/* ================== List ============= */
+.item-mode-list {
+    padding: 20px 0;
+    border-bottom: 1px solid #dedede;
+}
+
+
+.detail-list {
+    display: flex;
+}
+
+.phar1-list {
+    display: flex;
+}
+
+.dircet-method {
+    font-size: 10px;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.direct-delivery {
+    background-color: #60a5ff;
+}
+
+.regular-delivery {
+    background-color: #35c75a;
+}
+
+.dircet-method a {
+    color: #ffffff;
+}
+
+.phar2-list {
+    font-size: 13px;
+    color: #121212;
+    font-weight: 400;
+}
+c  
+
+.phar3-list {
+    color: #a7a7a7;
+    font-size: 13px;
+}
+
+.phar {
+    padding: 10px 0;
+}
+
+.wrap-review-list {
+    text-align: center;
+}
+
+.wrap-review-list .wrap-content-view {
+    font-size: 10px;
+    border: 1px solid #a7a7a7;
+    padding: 5px;
+}
+
+.wrap-content-view .reivew-list {
+    color: #a7a7a7;
+}
+
+.wrap-content-view .product-list {
+    font-weight: 800;
+}
+
+.wrap-item-list .wrap-col5-list {
+    padding-right: 0;
+}
+
+.wrap-right-list {
+    display: flex;
+    float: right;
+}
+
+.wrap-price-list {
+    padding: 65px 20px ;
+}
+
+.wrap-heart-list {
+    padding: 80px 20px;
+}
+
+.wrap-buy-price-list {
+    padding: 0 0 0 20px;
+}
+
+.cart-list,
+.buy-list,
+.set-count-product-list {
+    padding-top: 15px;
+}
+
+.cart-list {
+    padding-top: 0;
+}
+
+.cart-list button{
+    color: #ff3333;
+    border: 1px solid #ff3333;
+    background-color: #fff;
+    width: 120px;
+    padding: 10px 10px;
+}
+
+.buy-list button {
+    color: #fff;
+    background-color: #ff3333;
+    border: 1px solid #ff3333;
+    width: 120px;
+    padding: 10px 10px;
+}
+
+.set-count-product-list {
+    display: flex;
+}
+
+.set-count-product-list input {
+    width: 75px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.set-count-product-list button {
+    width: 40px;
+}
+
 .list-content-title {
     margin: 0;
     padding-bottom: 10px;
 }
 
-.list-wrap-tabs ul {
-    background: #f8f8f8;
-    border-top: 1px solid #3d3d3d;
-    border-bottom: 1px solid #eeeeee;
-    padding-top: 20px;
-}
-
-.list-wrap-tabs ul li {
-
-}
 
 .list-wrap-tabs ul li a {
     line-height: 58px;
@@ -323,6 +461,19 @@ a:hover {
 .all_paging ul .lastGo a {
     padding: 0 5px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
