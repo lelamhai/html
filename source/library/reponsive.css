@@ -1,0 +1,86 @@
+ /* ==========================================================================
+   Responsive CSS Landscape Tablet
+   ========================================================================== */
+   @media only screen and (min-width: 960px) and (max-width: 1240px) {
+        
+}
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Tablet
+   ========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .wrap-col9-custom {
+        padding: 0 !important;
+    }
+
+    .dircet-method {
+        font-size: 8px;
+    }
+
+    .wrap-price-list {
+        padding: 40px 5px;
+    }
+
+    .wrap-heart-list {
+        padding: 50px 5px;
+    }
+
+    .phar {
+        padding: 0 0 5px 0;
+    }
+
+    .phar2-list {
+        font-size: 12px;
+    }
+
+    .phar3-list {
+        font-size: 12px;
+    }
+
+    .wrap-buy-price-list {
+        padding-left: 5px;
+    }
+
+    .buy-list button {
+        width: 100px;
+        padding: 5px 5px;
+        font-size: 12px;
+    }
+
+    .cart-list button{
+        width: 100px;
+        padding: 5px 5px;
+        font-size: 12px;
+    }
+
+    .set-count-product-list input {
+        width: 60px;
+    }
+    
+    .set-count-product-list button {
+        width: 35px;
+    }
+    
+    
+}
+
+
+/* ==========================================================================
+   Responsive CSS Landscape Mobile
+   ========================================================================== */
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .mode-option-list {
+        display: none;
+    }  
+ }
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+   .mode-option-list {
+       display: none;
+   }
+}

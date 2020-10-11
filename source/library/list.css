@@ -245,11 +245,13 @@ a:hover {
 }
 
 /* ==============================  Right =============================== */
+#tabs {
+    border: 0 !important;
+    padding: 0!important;
+}
+
 .header-option {
     background: #f8f8f8;
-    border-top: 1px solid #3d3d3d;
-    border-bottom: 1px solid #eeeeee;
-    padding-top: 20px;
     width: 100%;
     display: inline-block;
 }
@@ -257,6 +259,13 @@ a:hover {
 .mode-option-list {
     float: right;
     display: block;
+    background: transparent;
+    border: 0;
+}
+
+.header-option .mode-option-list li {
+    border: 0;
+    background: transparent;
 }
 
 .nav-pills-custom {
@@ -409,7 +418,7 @@ c
 .list-wrap-tabs .nav-pills>li.active>a,
 .list-wrap-tabs .nav-pills>li.active>a:focus, 
 .list-wrap-tabs .nav-pills>li.active>a:hover {
-    background-color: red;
+    background-color: #ff3333;
     border-radius: 0;
 }
 
