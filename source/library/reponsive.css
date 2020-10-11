@@ -73,6 +73,10 @@
     .mode-option-list {
         display: none;
     }  
+    
+    .wrap-col3-cutom {
+        display: none;
+       }
  }
 
 
@@ -82,5 +86,9 @@
 @media only screen and (min-width: 100px) and (max-width: 479px) {
    .mode-option-list {
        display: none;
+   }
+
+   .wrap-col3-cutom {
+    display: none;
    }
 }
